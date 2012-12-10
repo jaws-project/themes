@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- BEGIN layout -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <base href="{BASE_URL}" />
+  <title>{site-title}</title>
+  <meta name="author" content="{site-author}" />
+  <meta name="keywords" content="{site-keywords}" />
+  <meta name="description" content="{site-description}" />
+  <meta http-equiv="content-language" content="{site-languages}" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="{THEME}style{.dir}.css" media="screen" />
+  <!-- BEGIN head -->{ELEMENT}<!-- END head -->
+</head>
+
+<body>
+  <div id="container" class="clearfix">
+    <div id="header">
+      <div id="header-content">
+        <h1 id="logo-text"><a href="{site-url}" title="">{site-name}</a></h1>
+        <h2 id="slogan">{site-slogan}</h2>
+
+        <div id="header-links"><!-- BEGIN header-links -->{ELEMENT}<!-- END header-links --></div>
+      </div>
+    </div>
+
+    <div id="nav-wrap">
+      <div id="nav"><!-- BEGIN menu-header -->{ELEMENT}<!-- END menu-header --></div>
+    </div>
+
+    <div id="content-wrap"><div id="content">
+
+        <div id="sidebar" >
+            <div class="sep"></div>
+            <!-- BEGIN bar1 narrow="yes" -->{ELEMENT}<!-- END bar1 -->
+        </div>
+
+        <div id="main">
+            <!-- BEGIN main -->{ELEMENT}<!-- END main -->
+        </div>    
+    </div></div>
+
+    <div id="footer-wrap">
+
+        <div id="footer-columns">
+            <div class="col3"><!-- BEGIN footer1 narrow="yes" -->{ELEMENT}<!-- END footer1 --></div>
+            <div class="col3-center"><!-- BEGIN footer2 narrow="yes" -->{ELEMENT}<!-- END footer2 --></div>
+            <div class="col3"><!-- BEGIN footer3 narrow="yes" -->{ELEMENT}<!-- END footer3 --></div>
+        </div>    
+
+        <div id="footer-bottom">
+            <p>
+            {site-copyright} | Powered by the: <a href="http://www.jaws-project.com/">Jaws Project</a> | 
+            Design by: <a href="http://www.styleshout.com/">styleshout</a>
+            </p>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
+<!-- END layout -->

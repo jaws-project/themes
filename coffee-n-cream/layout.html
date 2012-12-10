@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- BEGIN layout -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <base href="{BASE_URL}" />
+  <title>{site-title}</title>
+  <meta name="author" content="{site-author}" />
+  <meta name="keywords" content="{site-keywords}" />
+  <meta name="description" content="{site-description}" />
+  <meta http-equiv="content-language" content="{site-languages}" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="{THEME}style{.dir}.css" media="screen" />
+  <!-- BEGIN head -->{ELEMENT}<!-- END head -->
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+        <div class="title">
+            <a href="{site-url}">{site-name}</a>
+        </div>
+        <div class="description">{site-slogan}</div>
+    </div>
+
+    <div class="navigation wide">
+        <!-- BEGIN header -->{ELEMENT}<!-- END header -->
+    </div>
+
+    <div class="main-section">        
+        <div class="main-content wide">
+            <!-- BEGIN main -->{ELEMENT}<!-- END main -->
+        </div>
+
+        <div class="sidenav narrow">
+            <!-- BEGIN bar1 narrow="yes" -->{ELEMENT}<!-- END bar1 -->
+        </div>
+
+        <div class="clearer"><span></span></div>
+    </div>
+
+    <div class="footer">
+        <span class="left">{site-copyright} <a href="{BASE_URL}">{site-name}</a>.
+        Powered by the <a href="http://www.jaws-project.com" rel="external">Jaws Project</a>
+        </span>
+        <span class="right">Design by <a href="http://arcsin.se/">Arcsin</a></span>
+        <div class="clearer"><span></span></div>
+    </div>
+
+  </div>
+</body>
+</html>
+<!-- END layout -->

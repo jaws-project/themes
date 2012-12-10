@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- BEGIN layout -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <base href="{BASE_URL}" />
+  <title>{site-title}</title>
+  <meta name="author" content="{site-author}" />
+  <meta name="keywords" content="{site-keywords}" />
+  <meta name="description" content="{site-description}" />
+  <meta http-equiv="content-language" content="{site-languages}" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="{THEME}style{.dir}.css" media="screen" />
+  <!-- BEGIN head -->{ELEMENT}<!-- END head -->
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+       <div id="logo">
+        <a href="{site-url}"><img src="{THEME}/images/big_logo.gif" height="78" alt="" title="" border="0" /></a>
+       </div>
+       <div id="topbar" class="wide">
+       <!-- BEGIN header -->{ELEMENT}<!-- END header -->
+       </div>
+    </div>
+
+    <div id="main_content">
+
+      <div id="bar1" class="narrow">
+      <!-- BEGIN bar1 narrow="yes" -->{ELEMENT}<!-- END bar1 -->
+      </div>
+
+      <div id="mainbar" class="wide">
+      <!-- BEGIN main -->{ELEMENT}<!-- END main -->
+      </div>
+
+      <div id="bar2" class="narrow">
+      <!-- BEGIN bar2 narrow="yes" -->{ELEMENT}<!-- END bar2 -->
+      </div>
+
+      <div id="bar3" class="wide">
+      <!-- BEGIN bar3 -->{ELEMENT}<!-- END bar3 -->
+      </div>
+
+    </div>
+    <!-- end of main-content -->
+
+<div id="footer">
+  <div id="copyright">
+    <div style="padding:3px;"><a href="#"><img src="{THEME}/images/min_logo.gif" width="42" height="35" alt="" title="" border="0" /></a></div>
+    <div style="padding:14px 10px 10px 10px;">
+      {site-copyright} | 
+      Powered by the <a href="http://www.jaws-project.com" rel="external">Jaws Project</a> | 
+      Design by: <a href="http://csscreme.com/">csscreme</a>.
+    </div>
+  </div>
+</div>
+
+
+</div>
+<!-- end of container -->
+
+</body>
+</html>
+<!-- END layout -->

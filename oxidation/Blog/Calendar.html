@@ -1,0 +1,34 @@
+<!-- BEGIN calendar -->
+<table class="calendar" cellpadding="0" cellspacing="0" border="0">
+ <caption>
+   {month} {year}
+ </caption>
+ <thead>
+     <tr>
+        <th abbr="Monday" scope="col">M</th>
+        <th abbr="Tuesday" scope="col">T</th>
+        <th abbr="Wednesday" scope="col">W</th>
+        <th abbr="Thursday" scope="col">T</th>
+        <th abbr="Friday" scope="col">F</th>
+        <th abbr="Saturday" scope="col">S</th>
+        <th abbr="Sunday" scope="col">S</th>
+     </tr>
+ </thead>
+ <tfoot>
+    <tr>
+        <td colspan="3" id="prev">{left_arrow}</td>
+        <td class="pad">&nbsp;</td>
+        <td colspan="3" id="next">{right_arrow}</td>
+    </tr>
+ </tfoot>
+ <tbody>
+ <!-- BEGIN week -->
+ <tr>
+  <!-- BEGIN day -->
+  <td class="{style}">{day}</td>
+  <!-- END day -->
+ </tr>
+ <!-- END week -->
+ </tbody>
+</table>
+<!-- END calendar -->
