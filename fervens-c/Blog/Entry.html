@@ -1,0 +1,29 @@
+<!-- BEGIN entry -->
+<div class="gadget blog-entry blog_entry">
+    <div class="p-head">
+        <p class="p-date"><abbr title="{createtime-iso}">{createtime}</abbr></p>
+
+        <h2><a href="{permanent-link}" rel="bookmark" title="{title}">{title}</a></h2>
+
+        <p class="p-who">{posted_by} <a href="{author-url}" class="fn url">{nickname}</a> :
+            <!-- BEGIN category -->
+            <a href="{url}" rel="category tag">{name}</a>{separator}
+            <!-- END category --></p>
+    </div>
+    <div class="p-con">{text}</div>
+        <!-- BEGIN read-more -->
+        <span class="p-read-more"><a href="{url}">{read_more}</a></span>
+        <!-- END read-more -->
+
+
+        <!-- BEGIN comment-link -->
+        <div class="p-com">
+            <a href="{url}">{text_comments}</a>
+        </div>
+        <!-- END comment-link -->
+
+        <!-- BEGIN comments-statistic -->
+        <span class="entry-comments-statistic"><a>{text_comments}</a></span>
+        <!-- END comments-statistic -->
+</div>
+<!-- END entry -->
