@@ -1,0 +1,24 @@
+<!-- BEGIN comment -->
+<div class="comment comment_level_{level}"> 
+    <ul class="commentlist">
+        <li class="comment even thread-odd thread-alt depth-{level}">
+          <div class="left-sidebar">
+            <img alt="avatar" src="{avatar_source}" class="avatar avatar-32 photo" height="32" width="32" />
+            <p><b><a href="{url}" rel="external nofollow" class="url">{name}</a></b><br />
+              {createtime}             
+            </p>
+          </div>
+          <div class="comment-content">
+            <em>{status_message}</em>
+            <p>{comments}</p>
+            <!-- BEGIN reply-link -->
+            <div class="reply">
+              <div class="comment-reply-link" href="">[ {reply-link} ({replies}) ]</div>
+            </div>
+            <!-- END reply-link -->
+          </div>  
+        </li>
+    </ul>
+</div>
+<!-- BEGIN thread -->{thread}<!-- END thread -->
+<!-- END comment -->

@@ -1,0 +1,29 @@
+<!-- BEGIN view_category -->
+<div class="intro"><h3>{title}</h3></div>
+<div class="clear"></div>
+<!-- BEGIN entry -->
+<div class="blog-entry blog_entry">
+  <div class="postmetadata">
+    <p class="meta-date">
+        <span class="date-day">{createtime-day}</span>
+        <span class="date-month">{createtime-monthabbr}</span>
+        <span class="date-year">{createtime-year}</span>
+    </p>
+    <p class="meta-author"><a href="{author-url}" class="fn url">{nickname}</a></p>
+    <!-- BEGIN comment-link --><p class="meta-comments"><a href="{url}">{text_comments}</a></p><!-- END comment-link -->
+    <!-- BEGIN comments-statistic --><p class="meta-comments"><a href="{url}">{text_comments}</a></p><!-- END comments-statistic -->
+    <p class="meta-categories"><!-- BEGIN category --><a href="{url}" rel="category tag">{name}</a>{separator} <!-- END category --></p>
+  </div>
+
+  <div class="post">
+    <h2><a href="{permanent-link}" title="{title}" rel="bookmark">{title}</a></h2>
+    <div class="content">{text}</div>
+    <!-- BEGIN read-more -->
+    <a class="more-link" href="{url}"><span class="more">{read_more}</span></a>
+    <!-- END read-more -->
+  </div>
+</div>
+<div class="clear"></div>
+<!-- END entry -->
+{navigation}
+<!-- END view_category -->

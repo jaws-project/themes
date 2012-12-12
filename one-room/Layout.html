@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- BEGIN layout -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+  <base href="{base_url}" />
+  <title>{site-title}</title>
+  <meta name="author" content="{site-author}" />
+  <meta name="keywords" content="{site-keywords}" />
+  <meta name="description" content="{site-description}" />
+  <meta http-equiv="content-language" content="{site-languages}" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" href="{theme_url}style.css" type="text/css" media="screen" />
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <!-- BEGIN head -->{ELEMENT}<!-- END head -->
+<!--[if IE 6]>
+<style type="text/css">
+.comment-form{margin-bottom: -3px}
+</style>
+<![endif]-->
+
+</head>
+  <body id="top">
+    <div id="container">
+        <div id="wrapper">
+            <div id="header">
+                <div id="logo"><h1><a href="{site-url}">{site-name}</a></h1></div>
+                <div class="menu"><!-- BEGIN top-menu -->{ELEMENT}<!-- END top-menu --></div>
+                <!-- FEED If You Want To Active This Feature Please Insert RSS Link In href Location And Remove This Block Comment
+                <a id="rss" href="" title="Syndicate this site using RSS">SUBSCRIBE TO <b>RSS</b></a>
+                -->
+            </div>
+
+            <div id="pageWrapper">
+
+                <div id="content">
+                    <div id="intro"><!-- BEGIN intro -->{ELEMENT}<!-- END intro --></div>
+                    <div class="postWrapper"><!-- BEGIN main -->{ELEMENT}<!-- END main --></div>
+                    <div class="clear"></div>
+                </div>
+
+                <div id="sidebar">
+                    <!-- BEGIN sidebar -->{ELEMENT}<!-- END sidebar -->
+                </div>
+
+                <div class="clear"></div>
+            </div><!-- / pageWrapper -->
+
+            <div id="footer">
+                <div class="foot_l">&nbsp;</div>
+                <div class="foot_content">
+                    <!-- BEGIN footer-menu -->{ELEMENT}<!-- END footer-menu -->
+                    <p>
+                    {site-copyright} <br />
+                    Powered by the <a href="http://www.jaws-project.com" rel="external">Jaws Project</a>. Theme design by <a href="http://web-kreation.com/" rel="nofollow">Web-Kreation</a>.
+                    </p>
+                </div>
+                <div class="foot_r">&nbsp;</div>
+                <a href="{base_url}{requested_url}#top" id="toTop">&nbsp;</a>
+            </div><!-- / footer -->
+
+        </div><!-- / Wrapper -->
+    </div><!-- / container -->
+  </body>
+</html>
+<!-- END layout -->

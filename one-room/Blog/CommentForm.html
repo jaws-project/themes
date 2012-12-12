@@ -1,0 +1,56 @@
+<!-- BEGIN commentform -->
+<div class="comment_form" id="respond">
+  <form name="commentBox" action="{requested_url}" method="post" id="commentform">
+  <input type="hidden" name="parent_id" value="{parent_id}" />
+  <input type="hidden" name="parent" value="{parent}" />
+  <input type="hidden" name="gadget" value="Blog" />
+  <input type="hidden" name="action" value="SaveComment" />
+    <div class="left-sidebar">
+      <h3>{title}</h3>
+      <p class="u_check"><label for="blog_comment_url2">{url2}:</label>
+        <input name="url2" id="blog_comment_url2" value="{url2_value}" type="text" />
+      </p>
+    </div>
+
+    <div class="form-content comment-form">
+        <!-- BEGIN response --><div class="error">{msg}</div><!-- END response -->
+        <!-- BEGIN unregistered -->
+        <p>
+          <input class="field" type="text" name="name" id="blog_comment_name" size="22" tabindex="1" value="{name_value}" />
+          <label for="blog_comment_name"><small>{name}</small></label>
+        </p>
+
+        <p>
+          <input class="field" type="text" name="email" id="blog_comment_email"  size="22" tabindex="2" value="{email_value}" />
+          <label for="blog_comment_email"><small>{email}</small></label>
+        </p>
+
+        <p>
+          <input class="field" type="text" name="url" id="blog_comment_url" size="22" tabindex="3"  value="{url_value}" style="direction: ltr;" />
+          <label for="blog_comment_url"><small>{url}</small></label>
+        </p>
+        <!-- END unregistered -->
+
+        <p style="display: none;"><label for="blog_comment_title">{comment_title}:</label>
+           <input name="title" id="blog_comment_title" value="{title_value}" type="text" />
+        </p>
+
+        <!-- BEGIN captcha -->
+          <p><label>{lbl_captcha}:</label><br /><span>{captcha}<br /><small>{captcha_msg}</small></span><br />{captchavalue}</p>
+        <!-- END captcha -->
+
+        <textarea name="comments" id="blog_comment_comments" cols="56" rows="5" tabindex="4" style="margin-bottom: 10px;">{comments_value}</textarea>
+
+        <button type="button" name="preview" id="preview" value="{preview}"
+        onclick="this.form.action.value='Preview'; this.form.submit();">{preview}</button>
+        <button type="submit" value="{send}">{send}</button>
+
+        <p>{lbl_feeds} <a href="{rss_url}">RSS</a> | <a href="{atom_url}">Atom</a></p>
+    </div>
+
+    <div class="clear"></div>
+  </form>
+  <div class="clear"></div>
+</div>
+<div class="clear"></div>
+<!-- END commentform -->

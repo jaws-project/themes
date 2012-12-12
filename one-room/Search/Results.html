@@ -1,0 +1,27 @@
+<!-- BEGIN results -->
+<div class="gadget">
+  <h2>{title}</h2>
+  <div class="content">
+    <!-- BEGIN subtitle -->{text}<!-- END subtitle -->
+    <!-- BEGIN gadget --><h4>{gadget_result}</h4><!-- END gadget -->
+  </div>
+</div>
+<div class="clear"></div>
+<div class="search search_results">
+  <!-- BEGIN item -->
+    <div class="postmetadata">
+      <p class="meta-date"><span class="date-month">{date}</span></p>
+      <a href="{url}" target="{target}"><img src="{image}" width="48" alt="{title}" class="avatar"/></a>
+    </div>
+
+    <div class="post">
+      <h2><a href="{url}" target="{target}">{title}</a></h2>
+      <div class="content">{snippet}</div>
+    </div>
+    <div class="clear"></div>
+  <!-- END item -->
+
+  <!-- BEGIN notfound -->{message}<!-- END notfound -->
+  {navigation}
+</div>
+<!-- END results -->
