@@ -915,10 +915,10 @@ color:blue;
 color:red;
 }
 /* forums style */
-#requested_gadget_forums #mainbar{
+#main_gadget_forums #mainbar{
 width:732px;
 }
-#requested_gadget_forums #bar2{
+#main_gadget_forums #bar2{
 display:none;
 }
 .forums_group{
