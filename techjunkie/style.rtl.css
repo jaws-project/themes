@@ -176,7 +176,7 @@ background: #0e609e url(images/nav.gif) no-repeat;
 }
 #nav-inner {padding: 0 27px;}
 * html #nav-inner {padding: 0;}
-#nav h2 {display: none;}
+#nav h3 {display: none;}
 #nav .gadget {
 float: right;
 list-style: none;
@@ -197,14 +197,14 @@ text-decoration: none;
 
 /* Main Column */
 #main {float: right; width: 525px; padding: 0; margin: 0 45px 0 0; display: inline;}
-#main h2 {
+#main h3 {
 font: bold 1.5em Tahoma, 'Trebuchet MS', 'Helvetica Neue', Arial, Sans-serif;
 color: #115280;
 padding: 10px 5px 5px 0;
 margin-right: 5px;
 border-bottom: 1px solid #D2E9A4;
 }
-#main h2 a {color: #115280; text-decoration: none;}
+#main h3 a {color: #115280; text-decoration: none;}
 #main ul li {list-style-image: url(images/bullet.gif);}
 
 #sidebar {
@@ -215,7 +215,7 @@ margin: 0 0 0 45px;
 display: inline;
 }
 * html #sidebar {margin:0px;}
-#sidebar h2 {
+#sidebar h3 {
 color: #115280;
 font: normal 1.6em Tahoma, 'Trebuchet MS', 'Helvetica Neue', Arial, Sans-serif;
 text-transform: none;
@@ -273,7 +273,7 @@ padding: 30px 0 35px 0;
 }
 
 #footer-wrap p {padding:10px 0;}
-#footer-wrap h2 {font-size: 1.4em; font-weight: normal; color: #145F94; margin: 0; padding: 5px 10px 5px 0; text-transform: uppercase;}
+#footer-wrap h3 {font-size: 1.4em; font-weight: normal; color: #145F94; margin: 0; padding: 5px 10px 5px 0; text-transform: uppercase;}
 #footer-wrap a:hover {color: #000; text-decoration: none;}
 
 #footer-content {text-align: center;}
@@ -560,7 +560,7 @@ text-align: center;
 .wide .search .content, .wide .search .content p {display:inline;}
 .wide .search .content input {width: 200px;}
 .wide .search .actions {display:inline; width: 196px; border: none;}
-.advance_search .content h4 {padding: 4px 0;}
+.advance_search .content h5 {padding: 4px 0;}
 .advance_search .content p label {font-size: 8pt; font-weight: bold;}
 .advance_search .content input {width: 99%; margin-bottom: 2px;}
 .advance_search .content select {margin-right: 4px; width: 130px;}
@@ -581,12 +581,12 @@ text-align: center;
 .visitcounter .classic label {float:right; width: 120px; margin-right: -125px; border-left: 1px dotted #f0cca0;}
 
 /* Emblems */
-.emblems h2 {display: none;}
+.emblems h3 {display: none;}
 .emblems .content {text-align: center;}
 .emblems .content img, .emblems .content a {padding-top: 2px;}
 
 /* FAQ */
-.faq h4 {font-size: 11pt;}
+.faq h5 {font-size: 11pt;}
 .faq .content p, .faq_category p {padding: 5px;}
 .faq .content ul li ul li, .faq_category .content ul li {border-bottom: 1px dotted #f0cca0; padding-top:5px;}
 .faq .content ul li ul li span {font-weight: bold;}
@@ -594,12 +594,12 @@ text-align: center;
 .faq .summary li {margin-right: 20px; font-size: 10pt;}
 .faq .summary li{font-weight: bold;}
 .faq .summary liol li {font-weight: normal;}
-.faq_category h4 {font-size: 10pt;}
+.faq_category h5 {font-size: 10pt;}
 
 /* Glossary */
-.glossary_random .content h4, .glossary_term .content h4 {font-size: 11pt;}
+.glossary_random .content h5, .glossary_term .content h5 {font-size: 11pt;}
 .glossary_term .content p {padding: 5px;}
-.glossary h3 {margin-bottom: 10px;}
+.glossary h4 {margin-bottom: 10px;}
 .glossary span {
 border: 1px solid #d3d7cf;
 padding: 4px;
@@ -608,7 +608,7 @@ font-size: xx-small;
 }
 .glossary span a {padding: 2px;}
 .glossary .content {margin-top: 10px;}
-.glossary .content h4 a {font-size: 12pt;}
+.glossary .content h5 a {font-size: 12pt;}
 .glossary .content li a {font-size: 10pt; font-weight: bold;}
 .glossary .content li {border-bottom: 1px dotted #f0cca0; padding-top: 5px;}
 
@@ -714,4 +714,4 @@ background:transparent url(images/blank.gif);
 #sidebar .menu td {padding-right: 0px; padding-left: 0px; border: 0px;}
 
 /* ServerTime */
-.servertime h2 {display: none;}
+.servertime h3 {display: none;}
