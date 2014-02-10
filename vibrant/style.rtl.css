@@ -328,7 +328,7 @@ margin-left:auto;
 margin-right:auto;
 }
 /* gadget -----------------------*/
-.gadget h2{
+.gadget h3{
 color:#fff;
 height:30px;
 display:block;
@@ -338,25 +338,25 @@ line-height:27px;
 font-weight:bold;
 background:url(images/box-bg.gif) repeat-x;
 }
-.gadget h2:before{
+.gadget h3:before{
 width:5px;
 float:left;
 content:"";
 height:30px;
 background:url(images/box-l.gif) no-repeat;
 }
-.gadget h2:after{
+.gadget h3:after{
 width:5px;
 float:right;
 content:"";
 height:30px;
 background:url(images/box-r.gif) no-repeat;
 }
-.gadget h2 a{
+.gadget h3 a{
 color:#fff;
 background-color:transparent;
 }
-.gadget h2 a:hover{
+.gadget h3 a:hover{
 color:#c0ef05;
 }
 .gadget .content{
@@ -587,7 +587,7 @@ color:#2c78b9;
 .blog-entry a:hover{
 color:#4ba5f2;
 }
-.blog-entry h2{
+.blog-entry h3{
 color:#2c78b9;
 height:auto;
 margin:0;
@@ -598,19 +598,19 @@ font-size:16px;
 font-weight:bold;
 background:none;
 }
-.blog-entry h2:before{
+.blog-entry h3:before{
 background:none;
 }
-.blog-entry h2:after{
+.blog-entry h3:after{
 background:none;
 }
-.blog-entry h2 a{
+.blog-entry h3 a{
 color:#2c78b9;
 line-height:1.3em;
 font-size:16px;
 font-weight:bold;
 }
-.blog-entry h2 a:hover{
+.blog-entry h3 a:hover{
 color:#4ba5f2;
 }
 .view_date .content,
@@ -979,7 +979,7 @@ margin-right:-125px;
 border-left:1px dotted #bfe3eb;
 }
 /* Emblems ----------------------*/
-.emblems h2{
+.emblems h3{
 display:none;
 }
 .emblems .content{
@@ -1006,8 +1006,8 @@ padding-bottom:10px;
 .faq .content ul li ul li span{
 font-weight:bold;
 }
-.faq .content li h4,
-.faq_category .content li h4{
+.faq .content li h5,
+.faq_category .content li h5{
 display:inline;
 }
 .faq .summary,
@@ -1025,7 +1025,7 @@ font-weight:bold;
 .glossary_term .content p{
 padding:5px;
 }
-.glossary h3{
+.glossary h4{
 margin-bottom:10px;
 }
 .glossary .index{
@@ -1136,7 +1136,7 @@ text-align:right;
 margin-right:148px;
 }
 /* ServerTime -------------------*/
-.servertime h2{
+.servertime h3{
 display:none;
 }
 /* copyright --------------------*/
