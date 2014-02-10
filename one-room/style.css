@@ -9,8 +9,8 @@ a:hover{color:#000;text-decoration:underline}
 
 /* Common Formatting */
 h1,h2,h3,h4,h5,h6{font-weight:400;margin:0;padding:0}
-h1, #content h2{background:#F4F5F3 url(images/content-sep.jpg) repeat-x 0 0;border-bottom:#E2E4E0 1px solid;clear:both;font-size:1.8em;margin:10px -20px;padding:5px 20px}
-h1 a, #content h2 h2 a{color:#33352C !important}
+h1, #content h3{background:#F4F5F3 url(images/content-sep.jpg) repeat-x 0 0;border-bottom:#E2E4E0 1px solid;clear:both;font-size:1.8em;margin:10px -20px;padding:5px 20px}
+h1 a, #content h3 h3 a{color:#33352C !important}
 h2{font-size:1.8em}
 h3{font-size:1.6em;margin-top: 8px;}
 h4{font-size:1.4em}
@@ -70,10 +70,10 @@ a:hover img.alignleft,a:hover img.alignright,a:hover img.aligncenter  {backgroun
 
 /* */
 a img,img{border:none}
-h6,#intro h2,.intro h2{font-size:1.2em}
+h6,#intro h3,.intro h3{font-size:1.2em}
 .nopadding,.commentlist,#respond form{margin:0 !important;padding:0 !important}
 .nobackground,#respond .left-sidebar p{background:transparent !important}
-.grey,#intro,#intro a,#intro h2 span,.intro,.intro a,.intro h2 span{color:#676F51}
+.grey,#intro,#intro a,#intro h3 span,.intro,.intro a,.intro h3 span{color:#676F51}
 #intro a,.postmetadata a:hover,#wp-calendar tr a,.intro a{text-decoration:underline}
 
 /***** Main Layout *****/
@@ -105,9 +105,9 @@ h6,#intro h2,.intro h2{font-size:1.2em}
 /***** Content *****/
 #pageWrapper{background:#FFF url(images/content_bg.jpg) repeat-y 0 0}
 #content{display:block;float:left;overflow:hidden;padding-left:4px;width:680px}
-#content h1,#content h2,#content h3,#content h4,#content h5,#content h6{color:#33352C;font-family:Georgia,"Times New Roman",Times,serif}
+#content h1,#content h3,#content h4,#content h5,#content h5,#content h6{color:#33352C;font-family:Georgia,"Times New Roman",Times,serif}
 #intro, .intro{clear:both;display:block;float:right;font-family:Georgia,"Times New Roman",Times,serif;font-size:1.4em;font-style:italic;width:480px}
-#intro h2 span, .intro h2 span{font-size:0.9em}
+#intro h3 span, .intro h3 span{font-size:0.9em}
 
 /*  POST */
 .postWrapper{clear:both;display:block}
@@ -124,8 +124,8 @@ h6,#intro h2,.intro h2{font-size:1.2em}
 .meta-categories{background:url(images/icon-category.jpg) no-repeat 0 0}
 .meta-tags{background:url(images/icon-tag.jpg) no-repeat 0 0}
 .post, #pageWrapper .gadget {clear:right;display:block;float:right;padding:5px 20px 20px;width:480px}
-.post h3, .gadget h3 {margin:25px 0 15px}
-.post h3,.post h4,.post h5,.post h6,.gadget h3,.gadget h4,.gadget h5,.gadget h6{margin:15px 0}
+.post h4, .gadget h4 {margin:25px 0 15px}
+.post h4,.post h5,.post h5,.post h6,.gadget h4,.gadget h5,.gadget h5,.gadget h6{margin:15px 0}
 .post ul li,.gadget ul li{background:url(images/ul-post-arrow.jpg) no-repeat 0 9px;margin:0;padding:5px 0 5px 10px}
 .entry {width:480px}
 a span.more {background-color:#33352C;clear:both;color:#FFF;display:block;font-size:0.8em;font-weight:700;margin:20px 0 0 !important;padding:4px 7px;width:66px}
@@ -134,7 +134,7 @@ a:hover span.more {background-color:#6C9339;color:#FFF;text-decoration:none}
 /* Left sidebar */
 .left-sidebar{background:url(images/left-sidebar-sep.jpg) no-repeat 0 0;clear:left !important;display:block;float:left;font-size:0.85em;font-weight:400;margin:0;padding:15px 0 0 10px;width:150px}
 .left-sidebar p{background:url(images/comment-arrow.jpg) no-repeat right 5px;line-height:1.5em;margin:0;padding-right:10px}
-.left-sidebar h3{margin:0;padding:0}
+.left-sidebar h4{margin:0;padding:0}
 .left-sidebar .avatar, .postmetadata .avatar{background:#EFEFED;border:1px solid #D0D0CE;display:block;float:left;margin:0 5px 0 0;padding:3px}
 
 /* bottom Navigation */
@@ -148,14 +148,14 @@ a:hover span.more {background-color:#6C9339;color:#FFF;text-decoration:none}
 .comment-content{clear:right;display:block;float:left;width:480px;font-weight:normal;margin:0;padding:15px 20px;min-height:50px}
 .comment-content,.nav, .pager, .blog-page-nav{background:#F4F5F3 url(images/content-sep.jpg) repeat-x 0 0}
 #respond{background:url(images/left-sidebar-sep.jpg) no-repeat 0 bottom;clear:both;display:block;margin:0 0 20px !important;min-height:1px;padding:0 !important;overflow:hidden;}
-#respond h3{padding-bottom:20px}
+#respond h4{padding-bottom:20px}
 #respond form textarea{height:100px !important}
 #respond form .field{border:1px solid #7F9DB9;padding:2px 5px !important;width:130px}
 #respond .form-content{clear:right;display:block;float:left;width:480px;font-weight:normal;margin:0;padding:15px 20px;background:#F4F5F3 url(images/content-sep.jpg) repeat-x 0 0; border-bottom:#E2E4E0 1px solid;padding-top:10px}
 
 /***** RIGHT SIDEBAR *****/
 #sidebar{clear:right;display:block;float:right;overflow:hidden;padding-bottom:40px;width:280px;padding-right: 4px;}
-#sidebar h2{color:#33352C;font-family:Georgia,"Times New Roman",Times,serif;font-size:1.6em;margin:0 0 15px;padding:0}
+#sidebar h3{color:#33352C;font-family:Georgia,"Times New Roman",Times,serif;font-size:1.6em;margin:0 0 15px;padding:0}
 #sidebar .gadget {background:url(images/sidebar_sep.jpg) no-repeat 0 0;margin:0;padding:15px 10px;width:260px}
 #sidebar .gadget ul{margin:0 0 0 5px;width:245px}
 #sidebar .gadget ul li{background:url(images/ul-sidebar-arrow.jpg) no-repeat 0 9px;margin:0;padding:5px 0 5px 10px;width:230px !important}
@@ -164,7 +164,7 @@ a:hover span.more {background-color:#6C9339;color:#FFF;text-decoration:none}
 
 /* Search Box */
 #searchform, #sidebar .search_mini form {background:transparent url(images/search-bar.jpg) no-repeat;height:37px;width:260px}
-#sidebar .search_mini h2 {display: none;}
+#sidebar .search_mini h3 {display: none;}
 .search-field, #sidebar .search_mini #all {background:transparent;border:none;display:block;float:left;padding:10px;width:200px;margin-left:7px;margin-top:8px;}
 .search-submit, #sidebar .search_mini #btn_search {background:transparent;border:none;cursor:pointer;display:block;float:left;height:37px;width:40px;color:transparent;}
 .search-field:focus{outline:none !important}
@@ -281,7 +281,7 @@ padding:4px 4px;
 /* Poll */
 .poll .content input {padding: 2px; border: none;}
 .poll .content label {padding-left: 2px;}
-.poll h3 {font-size: 15px;}
+.poll h4 {font-size: 15px;}
 .poll_result table {width: 98%; margin: 0px; padding:0px; font-size:10pt;}
 .poll_result td {font-size:9pt; padding:4px; padding-left:2px; border: 1px solid #d3d7cf;}
 .poll_result .txt_percent {width: 28px;}
@@ -303,7 +303,7 @@ padding:4px 4px;
 .wide .search .content, .wide .search .content p {display:inline;}
 .wide .search .content input {width: 200px;}
 .wide .search .actions {display:inline; width: 196px; border: none;}
-.advance_search .content h4 {padding: 4px 0;}
+.advance_search .content h5 {padding: 4px 0;}
 .advance_search .content p label {font-size: 8pt; font-weight: bold;}
 .advance_search .content input {width: 99%; margin-bottom: 2px;}
 .advance_search .content select {margin-left: 4px; width: 130px;}
