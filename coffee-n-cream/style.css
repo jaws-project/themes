@@ -117,7 +117,7 @@ width: 725px;
 float: right;
 width: 218px;
 }
-.sidenav h2 {
+.sidenav h3 {
 background: #BCB39F url(img/sidenavh1.gif) repeat-x;
 border-bottom: 1px solid #999;
 border-top: 1px solid #CCC;
@@ -439,7 +439,7 @@ border: 1px solid #d3d7cf;
 .wide .search .content, .wide .search .content p {display:inline;}
 .wide .search .content input {width: 200px;}
 .wide .search .actions {display:inline; width: 196px; border: none;}
-.advance_search .content h4 {padding: 4px 0;}
+.advance_search .content h5 {padding: 4px 0;}
 .advance_search .content p label {font-size: 8pt; font-weight: bold;}
 .advance_search .content input {width: 90%; margin-bottom: 2px;}
 .advance_search .content select {margin-left: 4px; width: 130px;}
@@ -514,7 +514,7 @@ background:transparent url(images/blank.gif);
 .wide .menu ul li a:hover ul a:hover ul a:hover ul a:hover ul a:hover ul {visibility:visible;}
 
 /* Emblems */
-.emblems h2 {display: none;}
+.emblems h3 {display: none;}
 
 /* ServerTime */
-.servertime h2 {display: none;}
+.servertime h3 {display: none;}
