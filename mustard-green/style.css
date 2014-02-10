@@ -89,7 +89,7 @@ background:#8f7a13;
 border-left:5px solid #6e5e00;
 }
 
-h1, h2 { font-weight:normal; }
+h1, h2, h3 { font-weight:normal; }
 h2 a { color:#fffbc0; text-decoration:none; }
 h2 a:hover { color:#fffbc0; }
 h1 { border:0px solid red;}
@@ -198,12 +198,12 @@ height:55px;
 #left { float:left; width:490px; padding-left:18px;}
 #right { float:right; width:250px; border-left:2px solid #705e00;padding-left:6px;padding-right:4px;}
 
-#body h2 { font-size:20px; margin:5px 0px; }
+#body h3 { font-size:20px; margin:5px 0px; }
 #head p, #head form { display:inline;  }
 
 #left p { padding-left:3px; }
 #right p { padding-left:2px; }
-#right h2 { margin-bottom:4px; margin-top:15px; }
+#right h3 { margin-bottom:4px; margin-top:15px; }
 
 #foot { color:#a08925; padding-top:18px; padding-left:20px; }
 #foot .credit { float:right; margin-right:10px; }
@@ -430,7 +430,7 @@ padding-right: 6px;
 .wide .search .content, .wide .search .content p {display:inline;}
 .wide .search input, .wide .search select {width: 160px;}
 .wide .search .actions {display:inline; width: 196px; border: none;}
-.advance_search .content h4 {padding: 4px 0;}
+.advance_search .content h5 {padding: 4px 0;}
 .advance_search .content p label {font-weight: bold;}
 .advance_search input, .advance_search select {width: 95%;}
 .wide .advance_search .content input {width: 240px;}
@@ -449,12 +449,12 @@ padding-right: 6px;
 .visitcounter .classic label {float:left; width: 120px; margin-left: -125px; border-right:1px dashed #c2c267;}
 
 /* Emblems */
-.emblems h2 {display: none;}
+.emblems h3 {display: none;}
 .emblems .content {text-align: center;}
 .emblems .content img, .emblems .content a {padding-top: 2px;}
 
 /* FAQ */
-.faq h4 {font-size: 11pt;}
+.faq h5 {font-size: 11pt;}
 .faq .content p, .faq_category p {padding: 5px;}
 .faq .content ul li ul li, .faq_category .content ul li {border-bottom: 1px dotted #f0cca0; padding-top:5px;}
 .faq .content ul li ul li span {font-weight: bold;}
@@ -462,12 +462,12 @@ padding-right: 6px;
 .faq .summary li {margin-left: 20px; font-size: 10pt;}
 .faq .summary li{font-weight: bold;}
 .faq .summary liol li {font-weight: normal;}
-.faq_category h4 {font-size: 10pt;}
+.faq_category h5 {font-size: 10pt;}
 
 /* Glossary */
-.glossary_random .content h4, .glossary_term .content h4 {font-size: 11pt;}
+.glossary_random .content h5, .glossary_term .content h5 {font-size: 11pt;}
 .glossary_term .content p {padding: 5px;}
-.glossary h3 {margin-bottom: 10px;}
+.glossary h4 {margin-bottom: 10px;}
 .glossary span {
 border: 1px solid #c3c7bf;
 padding: 4px;
@@ -476,7 +476,7 @@ font-size: xx-small;
 }
 .glossary span a {padding: 2px;}
 .glossary .content {margin-top: 10px;}
-.glossary .content h4 a {font-size: 12pt;}
+.glossary .content h5 a {font-size: 12pt;}
 .glossary .content li a {font-size: 10pt; font-weight: bold;}
 .glossary .content li {border-bottom: 1px dotted #f0cca0; padding-top: 5px;}
 
@@ -516,7 +516,7 @@ font-size: xx-small;
 .wide .preferences .actions {text-align:left; margin-left: 148px;}
 
 /* ServerTime */
-.servertime h2 {display: none;}
+.servertime h3 {display: none;}
 
 /* Menu */
 .menu:after {height: 0; clear: both; content: "."; display: block; visibility: hidden;}
@@ -535,7 +535,7 @@ padding:4px 2px;
 }
 .menu a:hover{background:#907a00;}
 .menu li img {vertical-align: middle;}
-.wide .menu h2 {display:none;}
+.wide .menu h3 {display:none;}
 .wide .menu a{
 color:#dcb904;
 font-size:14px;
