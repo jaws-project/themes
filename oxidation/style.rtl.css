@@ -141,7 +141,7 @@ padding: 0 30px;
 background: #D2BA29 url(images/img01.rtl.jpg) no-repeat left top;
 }
 
-#logo h1, #logo h2 {
+#logo h1, #logo h3 {
 float: right;
 margin: 0px;
 padding: 0px;
@@ -156,7 +156,7 @@ font-family: "Times New Roman", georgia, times, serif;
 font-size: 2.5em;
 }
 
-#logo h2 {
+#logo h3 {
 font-size: .9em;
 padding-top: 30px;
 }
@@ -296,14 +296,14 @@ padding: .3em;
 
 .gadget {margin-bottom: 10px;}
 .wide .gadget {margin-bottom: 2px;}
-#main h1, .gadget h2 {
+#main h1, .gadget h3 {
 color: #000;
 padding: 2px;
 text-align: right;
 margin-bottom: 2px;
 border-bottom:2px solid #F2EAB8;
 }
-.gadget h2 a {border: none;}
+.gadget h3 a {border: none;}
 .gadget .content {
 padding:2px;
 font-size:13px;
@@ -464,7 +464,7 @@ color: #FDFBED;
 .wide .search .content, .wide .search .content p {display:inline;}
 .wide .search .content input {width: 200px;}
 .wide .search .actions {display:inline; width: 196px; border: none;}
-.advance_search .content h4 {padding: 4px 0;}
+.advance_search .content h5 {padding: 4px 0;}
 .advance_search .content p label {font-size: 8pt; font-weight: bold;}
 .advance_search .content input {width: 99%; margin-bottom: 2px;}
 .advance_search .content select {margin-right: 4px; width: 130px;}
