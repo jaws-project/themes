@@ -173,7 +173,7 @@ font: bold 15px "Trebuchet MS", Tahoma, Sans-serif;
 }
 #header-content #header-links a {color: #93C9F4; text-decoration: none;}
 #header-content #header-links a:hover {color: #fff;}
-#header-content #header-links h2 {display: none;}
+#header-content #header-links h3 {display: none;}
 #header-content #header-links li {display: inline; padding: 5px;}
 
 /* Navigation */
@@ -184,7 +184,7 @@ background: url(images/menubg.jpg) repeat-x left bottom;
 height: 35px;
 min-height: 35px;
 }
-#nav-wrap h2 {display: none;}
+#nav-wrap h3 {display: none;}
 #nav {margin:-45px auto 0; padding:0;}
 #nav .menu {padding-top: 14px;}
 #nav .menu ul {
@@ -226,7 +226,7 @@ width: 100%;
 
 /* sidebar */
 #sidebar {float: right; width: 21em; margin: 10px 0 10px -21em; padding: 0;}
-#sidebar h2 {
+#sidebar h3 {
 font: bold 1.75em 'Trebuchet MS', Tahoma, Arial, Sans-serif;
 padding: .3em 0 .5em 10px;
 color: #002368;
@@ -271,13 +271,13 @@ clear: both;
 
 /* main */
 #main {margin: 10px 23em 10px 0; padding: 0;}
-#main h2 { 
+#main h3 { 
 font: bold 2.1em 'Trebuchet MS', Arial, Sans-serif;
 color: #B1E100;
 letter-spacing: -2px;
 padding-bottom: 0;
 }
-#main h2 a {color: #B1E100; text-decoration: none;}
+#main h3 a {color: #B1E100; text-decoration: none;}
 
 /* footer */
 #footer-wrap {
@@ -289,7 +289,7 @@ padding: 1.6em 0;
 #footer-wrap a {text-decoration: none; color: #5B9CFF; font-weight: bold;}
 #footer-wrap a:hover {color: #E8F4FF;}
 #footer-wrap p {padding: 10px 0;}
-#footer-wrap h2 {color: #E8F4FF; margin: 0; padding: 0 10px; text-transform: none;}
+#footer-wrap h3 {color: #E8F4FF; margin: 0; padding: 0 10px; text-transform: none;}
 
 /* footer columns */
 #footer-columns {
@@ -563,7 +563,7 @@ text-align: center;
 .wide .search .content, .wide .search .content p {display:inline;}
 .wide .search .content input {width: 200px;}
 .wide .search .actions {display:inline; width: 196px; border: none;}
-.advance_search .content h4 {padding: 4px 0;}
+.advance_search .content h5 {padding: 4px 0;}
 .advance_search .content p label {font-size: 8pt; font-weight: bold;}
 .advance_search .content input {width: 99%; margin-bottom: 2px;}
 .advance_search .content select {margin-left: 4px; width: 130px;}
@@ -584,12 +584,12 @@ text-align: center;
 .visitcounter .classic label {float:left; width: 120px; margin-left: -125px;}
 
 /* Emblems */
-.emblems h2 {display: none;}
+.emblems h3 {display: none;}
 .emblems .content {text-align: center;}
 .emblems .content img, .emblems .content a {padding-top: 2px;}
 
 /* FAQ */
-.faq h4 {font-size: 11pt;}
+.faq h5 {font-size: 11pt;}
 .faq .content p, .faq_category p {padding: 5px;}
 .faq .content ul li ul li, .faq_category .content ul li {border-bottom: 1px dotted #f0cca0; padding-top:5px;}
 .faq .content ul li ul li span {font-weight: bold;}
@@ -597,12 +597,12 @@ text-align: center;
 .faq .summary li {margin-left: 20px; font-size: 10pt;}
 .faq .summary li{font-weight: bold;}
 .faq .summary liol li {font-weight: normal;}
-.faq_category h4 {font-size: 10pt;}
+.faq_category h5 {font-size: 10pt;}
 
 /* Glossary */
-.glossary_random .content h4, .glossary_term .content h4 {font-size: 11pt;}
+.glossary_random .content h5, .glossary_term .content h5 {font-size: 11pt;}
 .glossary_term .content p {padding: 5px;}
-.glossary h3 {margin-bottom: 10px;}
+.glossary h4 {margin-bottom: 10px;}
 .glossary span {
 border: 1px solid #d3d7cf;
 padding: 4px;
@@ -611,7 +611,7 @@ font-size: xx-small;
 }
 .glossary span a {padding: 2px;}
 .glossary .content {margin-top: 10px;}
-.glossary .content h4 a {font-size: 12pt;}
+.glossary .content h5 a {font-size: 12pt;}
 .glossary .content li a {font-size: 10pt; font-weight: bold;}
 .glossary .content li {border-bottom: 1px dotted #f0cca0; padding-top: 5px;}
 
@@ -651,4 +651,4 @@ font-size: xx-small;
 .wide .preferences .actions {text-align:left; margin-left: 148px;}
 
 /* ServerTime */
-.servertime h2 {display: none;}
+.servertime h3 {display: none;}
