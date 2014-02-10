@@ -183,12 +183,12 @@ width: 632px;
 
 #top_header {height: 30px; text-align: center; padding: 10px 40px;}
 #top_header .gadget {background: none; margin-bottom: 0px;}
-#top_header .gadget h2 {padding-top: 0px;}
+#top_header .gadget h3 {padding-top: 0px;}
 
 .gadget .content ul {list-style: none;}
 .gadget {margin-bottom: 10px; background: url(img/divider.gif) no-repeat;}
 .gadget .content {font-size: 9pt; padding: 4px 5px; border-top: none;}
-.gadget h2 {padding-top: 15px; font-size: 13px;}
+.gadget h3 {padding-top: 15px; font-size: 13px;}
 /*Tag-Clud*/
 .tag-cloud-1 {font-size: 0.6em;}
 .tag-cloud-2 {font-size: 0.7em;font-weight: bold;}
@@ -383,7 +383,7 @@ text-align: center;
 .search .content, .search .content p {display:inline;}
 .search .content input {width: 200px;}
 .search .actions {display:inline; width: 196px; border: none;}
-.advance_search .content h4 {padding: 4px 0;}
+.advance_search .content h5 {padding: 4px 0;}
 .advance_search .content input {width: 99%; margin-bottom: 2px;}
 .advance_search .content select {margin-left: 4px; width: 130px;}
 .advance_search .content input {width: 280px;}
@@ -403,12 +403,12 @@ text-align: center;
 .visitcounter .classic label {float:left; width: 120px; margin-left: -125px; border-right: 1px dotted #f0cca0;}
 
 /* Emblems */
-.emblems h2 {display: none;}
+.emblems h3 {display: none;}
 .emblems .content {text-align: center;}
 .emblems .content img, .emblems .content a {padding-top: 2px;}
 
 /* FAQ */
-.faq h4 {font-size: 11pt;}
+.faq h5 {font-size: 11pt;}
 .faq .content p, .faq_category p {padding: 5px;}
 .faq .content ul li ul li, .faq_category .content ul li {border-bottom: 1px dotted #f0cca0; padding-top:5px;}
 .faq .content ul li ul li span {font-weight: bold;}
@@ -416,12 +416,12 @@ text-align: center;
 .faq .summary li {margin-left: 20px; font-size: 10pt;}
 .faq .summary li{font-weight: bold;}
 .faq .summary liol li {font-weight: normal;}
-.faq_category h4 {font-size: 10pt;}
+.faq_category h5 {font-size: 10pt;}
 
 /* Glossary */
-.glossary_random .content h4, .glossary_term .content h4 {font-size: 11pt;}
+.glossary_random .content h5, .glossary_term .content h5 {font-size: 11pt;}
 .glossary_term .content p {padding: 5px;}
-.glossary h3 {margin-bottom: 10px;}
+.glossary h4 {margin-bottom: 10px;}
 .glossary span {
 border: 1px solid #d3d7cf;
 padding: 4px;
@@ -430,7 +430,7 @@ font-size: xx-small;
 }
 .glossary span a {padding: 2px;}
 .glossary .content {margin-top: 10px;}
-.glossary .content h4 a {font-size: 12pt;}
+.glossary .content h5 a {font-size: 12pt;}
 .glossary .content li a {font-size: 10pt; font-weight: bold;}
 .glossary .content li {border-bottom: 1px dotted #f0cca0; padding-top: 5px;}
 
@@ -480,4 +480,4 @@ text-decoration:none;
 .menu a:hover {color:#ffc; background: #56644a;}
 .menu li img {vertical-align: middle;}
 /* ServerTime */
-.servertime h2 {display: none;}
+.servertime h3 {display: none;}
