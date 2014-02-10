@@ -297,7 +297,7 @@ div.pager_next{
 float: left;
 }
 /*-------------------------------*/
-.gadget h2{
+.gadget h3{
 color:#fff;
 text-align:right;
 font-weight:bold;
@@ -305,7 +305,7 @@ margin:0px 0px 3px;
 padding:5px 5px 5px 15px;
 background-color:#385870;
 }
-.gadget h2 a{
+.gadget h3 a{
 color:#fff;
 background-color:transparent;
 }
@@ -780,7 +780,7 @@ margin-right:-125px;
 border-left:1px dotted #d1d1d1;
 }
 /* Emblems ----------------------*/
-.emblems h2{
+.emblems h3{
 display:none;
 }
 .emblems .content{
@@ -819,7 +819,7 @@ font-weight:normal;
 .glossary_term .content p{
 padding:5px;
 }
-.glossary h3{
+.glossary h4{
 margin-bottom:10px;
 }
 .glossary .index{
@@ -885,7 +885,7 @@ div.user_avatar img{
 max-width:128px;
 }
 /* ServerTime -------------------*/
-.servertime h2{
+.servertime h3{
 display:none;
 }
 /* Weather -------------------*/
