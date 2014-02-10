@@ -81,7 +81,7 @@ padding: 2px;
 img.float-left { margin: 5px 0px 10px 10px;}
 img.float-right { margin: 5px 10px 10px 0px; }
 
-h1, h2, h3, p {
+h1, h3, h4, p {
 margin: 10px 0px;
 padding: 0;
 }
@@ -231,13 +231,13 @@ padding: 10px 20px;
 display: inline;
 background: url(images/box.rtl.jpg) no-repeat; 
 }
-#main h2 {
+#main h3 {
 font: normal 150% Tahoma, 'Trebuchet MS', Arial, Sans-serif;
 padding: 0; 
 margin-bottom: 0;
 color: #2666c3;
 }
-#main h2 a {
+#main h3 a {
 color: #2666c3;
 text-decoration: none;
 }
@@ -250,7 +250,7 @@ margin: 0px;
 padding:0 5px;
 color: #777;
 }
-#sidebar h2 {
+#sidebar h3 {
 margin: 15px 5px 10px 5px;
 font: bold 1.1em Tahoma, 'Trebuchet MS', Sans-serif;
 color: #555;
@@ -543,7 +543,7 @@ text-decoration: none;
 #top-header #header-links a:hover {
 color: #D4FF55;
 }
-#header-links .gadget h2 {
+#header-links .gadget h3 {
 display: none;
 }
 #header-links form {
@@ -601,7 +601,7 @@ padding-left: 6px;
 .wide .search .content, .wide .search .content p {display:inline;}
 .wide .search input, .wide .search  select {width: 160px;}
 .wide .search .actions {display:inline; width: 196px; border: none;}
-.advance_search .content h4 {padding: 4px 0;}
+.advance_search .content h5 {padding: 4px 0;}
 .advance_search .content p label {font-weight: bold;}
 .advance_search input, .advance_search select {width: 95%;}
 .wide .advance_search .content input {width: 240px;}
@@ -622,13 +622,13 @@ padding-left: 6px;
 
 
 /* Emblems */
-.emblems h2 {display: none;}
+.emblems h3 {display: none;}
 .emblems .content {text-align: center;}
 .emblems .content img, .emblems .content a {padding-top: 2px;}
 
 
 /* FAQ */
-.faq h4 {font-size: 11pt;}
+.faq h5 {font-size: 11pt;}
 .faq .content p, .faq_category p {padding: 5px;}
 .faq .content ul li ul li, .faq_category .content ul li {border-bottom: 1px dotted #f0cca0; padding-top:5px;}
 .faq .content ul li ul li span {font-weight: bold;}
@@ -636,13 +636,13 @@ padding-left: 6px;
 .faq .summary li {margin-right: 20px; font-size: 10pt;}
 .faq .summary li{font-weight: bold;}
 .faq .summary liol li {font-weight: normal;}
-.faq_category h4 {font-size: 10pt;}
+.faq_category h5 {font-size: 10pt;}
 
 
 /* Glossary */
-.glossary_random .content h4, .glossary_term .content h4 {font-size: 11pt;}
+.glossary_random .content h5, .glossary_term .content h5 {font-size: 11pt;}
 .glossary_term .content p {padding: 5px;}
-.glossary h3 {margin-bottom: 10px;}
+.glossary h4 {margin-bottom: 10px;}
 .glossary span {
 border: 1px solid #d3d7cf;
 padding: 4px;
@@ -651,7 +651,7 @@ font-size: xx-small;
 }
 .glossary span a {padding: 2px;}
 .glossary .content {margin-top: 10px;}
-.glossary .content h4 a {font-size: 12pt;}
+.glossary .content h5 a {font-size: 12pt;}
 .glossary .content li a {font-size: 10pt; font-weight: bold;}
 .glossary .content li {border-bottom: 1px dotted #f0cca0; padding-top: 5px;}
 
@@ -695,4 +695,4 @@ font-size: xx-small;
 .wide .preferences .actions {text-align:right; margin-right: 148px;}
 
 /* ServerTime */
-.servertime h2 {display: none;}
+.servertime h3 {display: none;}
