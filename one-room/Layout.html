@@ -1,38 +1,57 @@
 <!DOCTYPE html>
 <!-- BEGIN layout -->
-<html lang="{site-languages}">
+<html lang="{{site-languages}}">
 <head>
-  <base href="{base_url}" />
-  <title>{site-title}</title>
-  <meta name="author" content="{site-author}" />
-  <meta name="keywords" content="{site-keywords}" />
-  <meta name="description" content="{site-description}" />
+  <base href="{{base_url}}" />
+  <title>{{site-title}}</title>
+  <meta name="author" content="{{site-author}}" />
+  <meta name="keywords" content="{{site-keywords}}" />
+  <meta name="description" content="{{site-description}}" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <link rel="stylesheet" type="text/css" href="{theme_url}style{.dir}.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="{{theme_url}}style{{.dir}}.css" media="screen" />
   <meta name="viewport" content="width=device-width, maximum-scale=2.0, initial-scale=1.0"/>
-  <!-- BEGIN head -->{ELEMENT}<!-- END head -->
+  <!-- BEGIN head -->{{ELEMENT}}<!-- END head -->
 </head>
-<body id="main_gadget_{main_gadget}">
+<body id="main_gadget_{{main_gadget}}">
     <div id="container">
         <div id="wrapper">
             <div id="header">
-                <div id="logo"><h1><a href="{site-url}">{site-name}</a></h1></div>
-                <div class="menu"><!-- BEGIN top-menu -->{ELEMENT}<!-- END top-menu --></div>
-                <!-- FEED If You Want To Active This Feature Please Insert RSS Link In href Location And Remove This Block Comment
-                <a id="rss" href="" title="Syndicate this site using RSS">SUBSCRIBE TO <b>RSS</b></a>
-                -->
+                <div id="logo"><h1><a href="{{site-url}}">{{site-name}}</a></h1></div>
+                <div class="menu">
+                  <!-- BEGIN top-menu -->
+                  <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+                  {{ELEMENT}}
+                  </div>
+                  <!-- END top-menu -->
+                </div>
             </div>
 
             <div id="pageWrapper">
 
                 <div id="content">
-                    <div id="intro"><!-- BEGIN intro -->{ELEMENT}<!-- END intro --></div>
-                    <div class="postWrapper"><!-- BEGIN main -->{ELEMENT}<!-- END main --></div>
+                    <div id="intro">
+                      <!-- BEGIN intro -->
+                      <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+                      {{ELEMENT}}
+                      </div>
+                      <!-- END intro -->
+                    </div>
+                    <div class="postWrapper">
+                      <!-- BEGIN main -->
+                      <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+                      {{ELEMENT}}
+                      </div>
+                      <!-- END main -->
+                    </div>
                     <div class="clear"></div>
                 </div>
 
                 <div id="sidebar">
-                    <!-- BEGIN sidebar -->{ELEMENT}<!-- END sidebar -->
+                  <!-- BEGIN sidebar -->
+                  <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+                  {{ELEMENT}}
+                  </div>
+                  <!-- END sidebar -->
                 </div>
 
                 <div class="clear"></div>
@@ -41,14 +60,18 @@
             <div id="footer">
                 <div class="foot_l">&nbsp;</div>
                 <div class="foot_content">
-                    <!-- BEGIN footer-menu -->{ELEMENT}<!-- END footer-menu -->
+                    <!-- BEGIN footer-menu -->
+                    <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+                    {{ELEMENT}}
+                    </div>
+                    <!-- END footer-menu -->
                     <p>
-                    {site-copyright} <br />
+                    {{site-copyright}} <br />
                     Powered by the <a href="http://jaws-project.com" rel="external">Jaws Project</a>. Theme design by <a href="http://web-kreation.com/" rel="nofollow">Web-Kreation</a>.
                     </p>
                 </div>
                 <div class="foot_r">&nbsp;</div>
-                <a href="{base_url}{requested_url}#top" id="toTop">&nbsp;</a>
+                <a href="{{base_url}}{requested_url}#top" id="toTop">&nbsp;</a>
             </div><!-- / footer -->
 
         </div><!-- / Wrapper -->

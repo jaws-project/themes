@@ -1,59 +1,91 @@
 <!DOCTYPE html>
 <!-- BEGIN layout -->
-<html lang="{site-languages}">
+<html lang="{{site-languages}}">
 <head>
-  <base href="{base_url}" />
-  <title>{site-title}</title>
-  <meta name="author" content="{site-author}" />
-  <meta name="keywords" content="{site-keywords}" />
-  <meta name="description" content="{site-description}" />
+  <base href="{{base_url}}" />
+  <title>{{site-title}}</title>
+  <meta name="author" content="{{site-author}}" />
+  <meta name="keywords" content="{{site-keywords}}" />
+  <meta name="description" content="{{site-description}}" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <link rel="stylesheet" type="text/css" href="{theme_url}style{.dir}.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="{{theme_url}}style{{.dir}}.css" media="screen" />
   <meta name="viewport" content="width=device-width, maximum-scale=2.0, initial-scale=1.0"/>
-  <!-- BEGIN head -->{ELEMENT}<!-- END head -->
+  <!-- BEGIN head -->{{ELEMENT}}<!-- END head -->
 </head>
-<body id="main_gadget_{main_gadget}">
+<body id="main_gadget_{{main_gadget}}">
   <div id="bg">
     <div class="header">
-        <h1><a href="http://localhost/test/wordpress/">{site-name}</a></h1>
+        <h1><a href="http://localhost/test/wordpress/">{{site-name}}</a></h1>
     </div>
     <div class="menu">
-        <!-- BEGIN top-menu -->{ELEMENT}<!-- END top-menu -->
+        <!-- BEGIN top-menu -->
+        <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+        {{ELEMENT}}
+        </div>
+        <!-- END top-menu -->
     </div>
 
     <div class="con">
         <div class="sc-all">
             <div class="sc">
                 <div class="post">
-                    <!-- BEGIN main -->{ELEMENT}<!-- END main -->
+                    <!-- BEGIN main -->
+                    <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+                    {{ELEMENT}}
+                    </div>
+                    <!-- END main -->
                 </div>
             </div>
         </div>
 
         <div class="s1">
             <div class="sidebar1-top">
-                <!-- BEGIN sidebar1-top -->{ELEMENT}<!-- END sidebar1-top -->
+                <!-- BEGIN sidebar1-top -->
+                <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+                {{ELEMENT}}
+                </div>
+                <!-- END sidebar1-top -->
             </div>
             <div class="sidebar1-bottom">
-                <!-- BEGIN sidebar1-bottom -->{ELEMENT}<!-- END sidebar1-bottom -->
+                <!-- BEGIN sidebar1-bottom -->
+                <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+                {{ELEMENT}}
+                </div>
+                <!-- END sidebar1-bottom -->
             </div>
         </div>
 
         <div class="s2">
-            <!-- BEGIN search -->{ELEMENT}<!-- END search -->
+            <!-- BEGIN search -->
+            <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+            {{ELEMENT}}
+            </div>
+            <!-- END search -->
             <div class="recent">
                 <ul id="r-posts" style="">
-                    <!-- BEGIN recent -->{ELEMENT}<!-- END recent -->
+                    <!-- BEGIN recent -->
+                    <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+                    {{ELEMENT}}
+                    </div>
+                    <!-- END recent -->
                 </ul>
             </div>
             <div class="about-all">
                 <div class="about">
-                    <!-- BEGIN about -->{ELEMENT}<!-- END about -->
+                    <!-- BEGIN about -->
+                    <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+                    {{ELEMENT}}
+                    </div>
+                    <!-- END about -->
                 </div>
             </div>
             <!--<br>-->
             <div class="sidebar">
-                <!-- BEGIN sidebar2 -->{ELEMENT}<!-- END sidebar2 -->
+                <!-- BEGIN sidebar2 -->
+                <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+                {{ELEMENT}}
+                </div>
+                <!-- END sidebar2 -->
             </div>
 
         </div>

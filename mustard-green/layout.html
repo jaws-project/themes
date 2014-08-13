@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <!-- BEGIN layout -->
-<html lang="{site-languages}">
+<html lang="{{site-languages}}">
 <head>
-  <base href="{base_url}" />
-  <title>{site-title}</title>
-  <meta name="author" content="{site-author}" />
-  <meta name="keywords" content="{site-keywords}" />
-  <meta name="description" content="{site-description}" />
+  <base href="{{base_url}}" />
+  <title>{{site-title}}</title>
+  <meta name="author" content="{{site-author}}" />
+  <meta name="keywords" content="{{site-keywords}}" />
+  <meta name="description" content="{{site-description}}" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <link rel="stylesheet" type="text/css" href="{theme_url}style{.dir}.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="{{theme_url}}style{{.dir}}.css" media="screen" />
   <meta name="viewport" content="width=device-width, maximum-scale=2.0, initial-scale=1.0"/>
-  <!-- BEGIN head -->{ELEMENT}<!-- END head -->
+  <!-- BEGIN head -->{{ELEMENT}}<!-- END head -->
 </head>
-<body id="main_gadget_{main_gadget}">
+<body id="main_gadget_{{main_gadget}}">
   <div id="container">
 
     <div id="head">
       <div id="header-title">
-        <h1><a href="{site-url}" rel="nofollow">{site-name}</a></h1><p>{site-slogan}</p>
+        <h1><a href="{{site-url}}" rel="nofollow">{{site-name}}</a></h1><p>{{site-slogan}}</p>
       </div>
       <form id="searchform" method="get" action="index.php">
         <fieldset>
@@ -28,18 +28,30 @@
       </form>
  
       <div id="header" class="wide">
-        <!-- BEGIN header -->{ELEMENT}<!-- END header -->
+        <!-- BEGIN header -->
+        <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+        {{ELEMENT}}
+        </div>
+        <!-- END header -->
       </div>
     </div>
 
     <div id="body">
 
       <div id="left" class="wide">
-        <!-- BEGIN main  narrow="yes" -->{ELEMENT}<!-- END main -->
+        <!-- BEGIN main  narrow="yes" -->
+        <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+        {{ELEMENT}}
+        </div>
+        <!-- END main -->
       </div>
 
       <div id="right" class="narrow">
-        <!-- BEGIN bar1 narrow="yes"  -->{ELEMENT}<!-- END bar1 -->
+        <!-- BEGIN bar1 narrow="yes"  -->
+        <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+        {{ELEMENT}}
+        </div>
+        <!-- END bar1 -->
       </div>
       <div class="clearfix"></div>
     </div>
@@ -51,7 +63,7 @@
       Design by <a href="http://KalyanChakravarthy.net/">Kalyan Chakravarthy</a> | 
       Powered by the <a href="http://jaws-project.com" rel="external">Jaws Project</a>
       </p>
-      <p>{site-copyright}</p>
+      <p>{{site-copyright}}</p>
     </div>
 
   </div>
