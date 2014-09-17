@@ -684,6 +684,19 @@ float:right;
 .blog-page-nav .float-right{
 float:left;
 }
+.blog .gadget_content img.blog_post_image{
+float:right;
+margin-left:8px;
+vertical-align:top;
+}
+.blog .gadget_content img.blog_post_image[src^="data:image"]{
+display:none;
+}
+.blog_post_meta{
+clear:both;
+padding:2px 4px;
+margin-top:4px;
+}
 /* Blog Calendar ----------------*/
 .calendar table{
 width:100%;
