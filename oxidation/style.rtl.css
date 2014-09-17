@@ -375,6 +375,20 @@ list-style: none;
 .blog_recent_posts .title {margin: 15px 0 0 0; border-bottom: 2px solid #F2EAB8;}
 .blog_recent_posts .title a {border: none;}
 
+.blog .gadget_content img.blog_post_image{
+float:right;
+margin-left:8px;
+vertical-align:top;
+}
+.blog .gadget_content img.blog_post_image[src^="data:image"]{
+display:none;
+}
+.blog_post_meta{
+clear:both;
+padding:2px 4px;
+margin-top:4px;
+}
+
 /* Commnets */
 .comment .comment_info, .comment_reply {
 padding: 5px;
