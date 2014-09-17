@@ -325,6 +325,20 @@ border: 1px solid #d3d7cf;
 .blog-page-nav .float-left {float:right}
 .blog-page-nav .float-right {float:left}
 
+.blog .gadget_content img.blog_post_image{
+float:right;
+margin-left:8px;
+vertical-align:top;
+}
+.blog .gadget_content img.blog_post_image[src^="data:image"]{
+display:none;
+}
+.blog_post_meta{
+clear:both;
+padding:2px 4px;
+margin-top:4px;
+}
+
 .calendar table {
 margin-top: 10px;
 margin-bottom: 10px;
