@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- BEGIN layout -->
+<html lang="{{site-languages}}">
+<head>
+  <base href="{{base_url}}" />
+  <title>{{site-title}}</title>
+  <meta name="author" content="{{site-author}}" />
+  <meta name="keywords" content="{{site-keywords}}" />
+  <meta name="description" content="{{site-description}}" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, maximum-scale=2.0, initial-scale=1.0"/>
+  <link rel="stylesheet" type="text/css" href="{{theme_url}}style{{.dir}}.css" media="screen" />
+  <!-- BEGIN head -->{{ELEMENT}}<!-- END head -->
+</head>
+<body id="main_gadget_{{main_gadget}}">
+
+    <div id="header">
+        <h1><a href="{{site-url}}">{{site-name}}</a></h1>
+        <div class="description">{{site-slogan}}</div>
+    </div>
+    <hr>
+    <div id="maincontainer">
+        <div id="maincontent">
+            <div class="topcorner"></div>
+            <div class="contentpadding">
+              <!-- BEGIN main -->
+              <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+              {{ELEMENT}}
+              </div>
+            <!-- END main -->
+            </div>
+            <div class="bottomcorner"></div>
+        </div>
+        <div id="sidebar">
+            <div id="sidebar-left">
+                <!-- BEGIN bar1 -->
+                <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+                {{ELEMENT}}
+                </div>
+                <!-- END bar1 -->
+            </div>
+            <div id="sidebar-right">
+            <!-- BEGIN bar2 -->
+              <div class="gadget {{gadget}} {{gadget_action}} {{gadget_action_params}}">
+              {{ELEMENT}}
+              </div>
+            <!-- END bar2 -->
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div id="footer">
+        <p id="footer-left">{{site-copyright}}</p>
+        <p id="footer-right">Powered by <a href="http://jaws-project.com" rel="external">Jaws Project</a>, Design by <a href="http://www.pagemod.cn/">page&#039;s blog</a>, Improved by <a href="http://jaws-project.ir/" rel="external">Jaws Project Persian support</a></p>
+    </div>
+
+</body>
+</html>
+<!-- END layout -->
